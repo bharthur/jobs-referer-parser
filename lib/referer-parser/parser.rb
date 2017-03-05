@@ -26,7 +26,7 @@ module RefererParser
       @name_hash ||= {}
 
       if options[:hash].present?
-        parse_referer_data(data)
+        parse_referer_data(options[:hash])
         true
       else
         update(options[:uris])
