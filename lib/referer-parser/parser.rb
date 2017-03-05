@@ -21,11 +21,16 @@ module RefererParser
     DefaultFile = File.expand_path(File.join(File.dirname(__FILE__), '..', '..', 'data', 'referers.json'))
 
     # Create a new parser from one or more filenames/uris, defaults to ../data/referers.json
-    def initialize(uris=DefaultFile)
+    def initialize(options={uris: DefaultFile, hash: {}})
       @domain_index ||= {}
       @name_hash ||= {}
 
-      update(uris)
+      if options[:hash].present?
+        parse_referer_data(data)
+        true
+      else
+        update(options[:uris])
+      end
     end
 
     # Update the referer database with one or more uris
