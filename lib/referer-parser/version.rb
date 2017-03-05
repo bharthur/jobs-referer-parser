@@ -15,5 +15,5 @@
 
 module RefererParser
   NAME = "jobs-referer-parser"
-  VERSION = "0.0.4"
+  VERSION = "0.0.5"
 end

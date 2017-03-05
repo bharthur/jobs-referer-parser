@@ -29,7 +29,8 @@ module RefererParser
         parse_referer_data(options[:hash])
         true
       else
-        update(options[:uris])
+        uris = options[:uris].present? ? options[:uris] : DefaultFile
+        update(uris)
       end
     end
 
