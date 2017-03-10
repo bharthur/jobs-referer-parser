@@ -949,7 +949,6 @@ search:
     - www.google.jo
     - www.google.co.jp
     - www.google.co.ke
-    - www.google.com.kh
     - www.google.ki
     - www.google.kg
     - www.google.co.kr
@@ -1146,7 +1145,6 @@ search:
     - google.jo
     - google.co.jp
     - google.co.ke
-    - google.com.kh
     - google.ki
     - google.kg
     - google.co.kr
@@ -1274,6 +1272,26 @@ search:
     - webcache.googleusercontent.com
     - encrypted.google.com
     - googlesyndicatedsearch.com
+    - www.google.al
+    - www.google.co.ao
+    - www.google.bt
+    - www.google.cx
+    - www.google.eu
+    - www.google.com.mm
+    - www.google.nf
+    - www.google.com.pg
+    - www.google.sr
+    - www.google.tn
+    - google.al
+    - google.co.ao
+    - google.bt
+    - google.cx
+    - google.eu
+    - google.com.mm
+    - google.nf
+    - google.com.pg
+    - google.sr
+    - google.tn
     parameters:
     - q
     - query

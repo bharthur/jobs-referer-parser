@@ -92,8 +92,8 @@ module RefererParser
     def parse(obj)
       url = obj.is_a?(URI) ? obj : URI.parse(obj.to_s)
 
-      if !['http', 'https'].include?(url.scheme)
-        raise InvalidUriError.new("Only HTTP and HTTPS schemes are supported -- #{url.scheme}") 
+      if url.scheme.nil?
+        raise InvalidUriError.new("Invalid url scheme!") 
       end
 
       data = { :known => false, :uri => url.to_s }
