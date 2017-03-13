@@ -68,6 +68,7 @@ email:
   Outlook.com:
     domains:
     - mail.live.com
+    - outlook.live.com
   QQ Mail:
     domains:
     - mail.qq.com
@@ -3668,6 +3669,12 @@ job_board:
     domains:
     - nurse.com
     - www.nurse.com
+  Onward Search:
+    domains:
+    - jobs.onwardsearch.com
+    - onwardsearch.com
+    - www.onwardsearch.co.uk
+    - onwardsearch.co.uk
   OnStartupJobs:
     domains:
     - onstartupjobs.com

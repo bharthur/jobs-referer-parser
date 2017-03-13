@@ -95,7 +95,8 @@
     },
     "Outlook.com": {
       "domains": [
-        "mail.live.com"
+        "mail.live.com",
+        "outlook.live.com"
       ]
     },
     "QQ Mail": {
@@ -4687,6 +4688,14 @@
       "domains": [
         "onstartupjobs.com",
         "www.onstartupjobs.com"
+      ]
+    },
+    "Onward Search": {
+      "domains": [
+        "jobs.onwardsearch.com",
+        "onwardsearch.com",
+        "www.onwardsearch.co.uk",
+        "onwardsearch.co.uk"
       ]
     },
     "OneWire": {
